@@ -1,0 +1,18 @@
+{
+  "name": "npx_card",
+  "version": "1.0.1",
+  "description": "a npx based simple business card",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "npx",
+    "js",
+    "cli",
+    "npm"
+  ],
+  "author": "avaakash",
+  "license": "ISC"
+}
