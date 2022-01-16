@@ -1,17 +1,26 @@
 {
-  "name": "npx_card",
-  "version": "1.0.1",
+  "name": "avaakash",
+  "version": "1.0.0",
   "description": "a npx based simple business card",
-  "main": "cli.js",
+  "main": "card.js",
+  "bin": {
+    "avaakash": "./card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaakash/npx_card.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node cli.js"
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
   },
   "keywords": [
     "npx",
     "js",
     "cli",
-    "npm"
+    "npm",
+    "npx card",
+    "npm card"
   ],
   "author": "avaakash",
   "license": "ISC"
